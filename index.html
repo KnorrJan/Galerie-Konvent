@@ -3,105 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Galerie přírody</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #4CAF50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    h1 {
-      margin: 0;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1rem;
-      padding: 1rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .gallery-item {
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s ease;
-    }
-
-    .gallery-item:hover {
-      transform: scale(1.02);
-    }
-
-    .gallery-item img {
-      width: 100%;
-      display: block;
-    }
-
-    .caption {
-      padding: 0.5rem;
-      text-align: center;
-      font-weight: bold;
-    }
-  </style>
+  <title>Galerie Konvent</title>
+  <link rel="stylesheet" href="styl/styl.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Galerie přírody</h1>
+    <h1>Galerie Konvent</h1>
+    <p class="subtitle">Umění přírody v historickém prostoru bývalého kapucínského kláštera</p>
   </header>
 
-  <section class="gallery">
-    <div class="gallery-item">
-      <img src="Březový les.JPG" alt="Březový les">
-      <div class="caption">Březový les</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Čihotka.JPG" alt="Čihotka">
-      <div class="caption">Čihotka</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Jaro v lesní tišině.JPG" alt="Jaro v lesní tišině">
-      <div class="caption">Jaro v lesní tišině</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Jezírko mezi lesy.JPG" alt="Jezírko mezi lesy">
-      <div class="caption">Jezírko mezi lesy</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Krajina.JPG" alt="Krajina">
-      <div class="caption">Krajina</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Lesní průsek.JPG" alt="Lesní průsek">
-      <div class="caption">Lesní průsek</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Opuštěný lom na Hádech.JPG" alt="Opuštěný lom na Hádech">
-      <div class="caption">Opuštěný lom na Hádech</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Průhled v lese.JPG" alt="Průhled v lese">
-      <div class="caption">Průhled v lese</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Staré vrby v Obřanech.JPG" alt="Staré vrby v Obřanech">
-      <div class="caption">Staré vrby v Obřanech</div>
-    </div>
-    <div class="gallery-item">
-      <img src="Strž u Židenic.JPG" alt="Strž u Židenic">
-      <div class="caption">Strž u Židenic</div>
-    </div>
-  </section>
+  <main>
+    <section class="gallery">
+      <figure>
+        <img src="obrazky/Březový les.JPG" alt="Březový les">
+        <figcaption>Březový les</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Čihotka.JPG" alt="Čihotka">
+        <figcaption>Čihotka</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Jaro v lesní tišině.JPG" alt="Jaro v lesní tišině">
+        <figcaption>Jaro v lesní tišině</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Jezírko mezi lesy.JPG" alt="Jezírko mezi lesy">
+        <figcaption>Jezírko mezi lesy</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Krajina.JPG" alt="Krajina">
+        <figcaption>Krajina</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Lesní průsek.JPG" alt="Lesní průsek">
+        <figcaption>Lesní průsek</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Opuštěný lom na Hádech.JPG" alt="Opuštěný lom na Hádech">
+        <figcaption>Opuštěný lom na Hádech</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Průhled v lese.JPG" alt="Průhled v lese">
+        <figcaption>Průhled v lese</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Staré vrby v Obřanech.JPG" alt="Staré vrby v Obřanech">
+        <figcaption>Staré vrby v Obřanech</figcaption>
+      </figure>
+      <figure>
+        <img src="obrazky/Strž u Židenic.JPG" alt="Strž u Židenic">
+        <figcaption>Strž u Židenic</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Galerie Konvent. Všechna práva vyhrazena.</p>
+  </footer>
 </body>
 </html>
